@@ -65,9 +65,13 @@ a:hover {
 
     .nav-logo {
         /* height: 100px; */
-        width: 200px;
+        max-width: 200px;
         display: flex;
         align-items: center;
+    }
+
+    .nav-logo img {
+        max-width: 200px;
     }
 
     .nav-links {
@@ -144,7 +148,11 @@ a:hover {
     }
 
     .nav-logo {
-        width: 500px;
+        max-width: 225px;
+    }
+
+    .nav-logo img {
+        max-width: 225px;
     }
 
     .nav-links {
