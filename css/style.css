@@ -63,6 +63,13 @@ a:hover {
         position: relative;
     }
 
+    .nav-logo {
+        /* height: 100px; */
+        width: 200px;
+        display: flex;
+        align-items: center;
+    }
+
     .nav-links {
         list-style-type: none;
         margin: 0;
@@ -134,6 +141,10 @@ a:hover {
 
     nav {
         margin: 0 auto;
+    }
+
+    .nav-logo {
+        width: 500px;
     }
 
     .nav-links {
