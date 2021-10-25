@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/hamburgers.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="tickets-header">
+    <nav>
+      <div class="nav-logo">
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="#">Buy Tickets</a>
+        </li>
+        <li>
+          <a href="./bands.html">Bands</a>
+        </li>
+      </ul>
+      <button class="hamburger hamburger--emphatic" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </nav>
+    <div class="tickets-content-container">
+      <h2>Buy Tickets</h2>
+    </div>
+  </header>
+  <div class="purchase-form">
+    <form class="container" action="">
+      <div class="input-container">
+        <h3 class="input-label">Full Name</h3>
+        <div class="double-input">
+          <input placeholder="Jane" class="half-input" type="text"/>
+          <div class="divider"></div>
+          <input placeholder="Doe" class="half-input" type="text"/>
+        </div>
+      </div>
+      <div class="input-container">
+        <h3 class="input-label">Email</h3>
+        <input placeholder="example@gmail.com" type="email"/>
+      </div>
+      <div class="input-container">
+        <h3 class="input-label">Amount</h3>
+        <select name="amount">
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="input-container">
+        <h3 class="input-label">Terms</h3>
+        <div class="terms-container">
+          <input type="checkbox"/>
+          <p class="terms-text">I accept the terms and conditions</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btn btn-white">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="../app.js"></script>
+</body>
+</html>

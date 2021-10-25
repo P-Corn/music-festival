@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/hamburgers.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div>
+    <!-- Header -->
+    <header id="header" class="landing-header">
+      <nav>
+        <div class="nav-logo">
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="./pages/buy-tickets.html">Buy Tickets</a>
+          </li>
+          <li>
+            <a href="./pages/bands.html">Bands</a>
+          </li>
+        </ul>
+        <button class="hamburger hamburger--emphatic" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </nav>
+      <div class="header-content-container">
+        <div class="container header-content">
+          <h1 class="header-title">JAM OUT AT <span class="header-span">PLOT FEST</span>FEATURING YOUR FAVORITE METALCORE BANDS</h1>
+          <a class="btn btn-white" href="./pages/buy-tickets.html">BUY TICKETS</a>
+        </div>
+      </div>
+    </header>
+    <!-- Bands -->
+    <section id="bands">
+      <h2>BANDS</h2>
+      <div class="bands-container container">
+        <div class="bands-item">
+          <h3 class="bands-item__title">THE PLOT IN YOU</h3>
+          <a class="spotify-link" href="https://open.spotify.com/artist/1cJ5tVoeAEFcZBAwSZ0CtF?si=WsYYlTcYRqOIPkevOqQGyw">
+            <img src="assets/spotify.svg" alt="">
+          </a>
+        </div>
+        <div class="bands-item">
+          <h3 class="bands-item__title">BRING ME THE HORIZON</h3>
+          <a class="spotify-link" href="https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF?si=E1_7W0_UTqaM2pqePmr8pg">
+            <img src="assets/spotify.svg" alt="">
+          </a>
+        </div>
+        <div class="bands-item">
+          <h3 class="bands-item__title">DANCE GAVIN DANCE</h3>
+          <a class="spotify-link" href="https://open.spotify.com/artist/6guC9FqvlVboSKTI77NG2k?si=a_k7Ndl5QxmWoS8T8jBaVg">
+            <img src="assets/spotify.svg" alt="">
+          </a>
+        </div>
+        <div class="bands-item">
+          <h3 class="bands-item__title">ISSUES</h3>
+          <a class="spotify-link" href="https://open.spotify.com/artist/3zRstk92RGCVDyslSySNsm?si=0GOFwOKdRVq-3zuaMFTiSg">
+            <img src="assets/spotify.svg" alt="">
+          </a>
+        </div>
+        <div class="bands-item">
+          <h3 class="bands-item__title">MYKA RELOCATE</h3>
+          <a class="spotify-link" href="https://open.spotify.com/artist/1f4My8kjwXpJoOAeYZOlnq?si=vpcSvUwTR-SLHIAK1nFW8A">
+            <img src="assets/spotify.svg" alt="">
+          </a>
+        </div>
+        <div class="bands-item">
+          <h3 class="bands-item__title">THE WORD ALIVE</h3>
+          <a class="spotify-link" href="https://open.spotify.com/artist/1CF8aEN939swnuIZGFI7Hk?si=z5OpLwqFTme3OJ2voz-YcA">
+            <img src="assets/spotify.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="section-btn">
+        <a class="btn btn-white" href="./pages/bands.html">VIEW MORE</a>
+      </div>
+    </section>
+    <!-- Information -->
+    <section id="information">
+      <div class="information-container container">
+        <div class="information-content">
+          <h2>INFO</h2>
+          <div class="information-content__h3">
+            <h3>1 Reliant Park, Houston, TX 77054</h3>
+            <h3>April 20th, 2022</h3>
+            <h3>10 AM - 7 PM</h3>
+          </div>
+          <p>The venue will be outside. Hydration is important. We provide water for free, just bring your bottle.<br>Local brewing companies will attend to show off their top picks. Food trucks will pull up. Come join us for fun!</p>
+          <a class="btn btn-white" href="./pages/buy-tickets.html">BUY TICKETS</a>
+        </div>
+        <div class="google-maps"></div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZgOGBflHOFv-cNc_-R-IIuictTHT9B9E&callback=initMap&libraries=&v=weekly"
+      async
+  ></script>
+</body>
+</html>
