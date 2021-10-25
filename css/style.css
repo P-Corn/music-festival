@@ -68,6 +68,7 @@ a:hover {
         max-width: 200px;
         display: flex;
         align-items: center;
+        margin-left: 15px;
     }
 
     .nav-logo img {
